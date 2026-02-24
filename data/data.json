@@ -5,26 +5,26 @@
             "url": "https://www.fhsu.edu/newmedia/"
         },
         {
-            "title": "Speechify",
-            "url": "https://studio.speechify.com/"
+            "title": "Outlook",
+            "url": "https://outlook.office.com/mail/"
         },
         {
-            "title": "MidJourney",
-            "url": "https://www.midjourney.com/home"
+            "title": "Placeholder",
+            "url": ""
         },
         {
-            "title": "ChatGPT",
-            "url": "https://chatgpt.com/"
+            "title": "Placeholder",
+            "url": ""
         },
         {
-            "title": "Glowforge",
-            "url": "https://app.glowforge.com/"
+            "title": "Placeholder",
+            "url": ""
         }
     ],
     "lab" : [
         {
-            "title": "FHSU Site",
-            "url": "https://www.fhsu.edu/newmedia/"
+            "title": "Glowforge",
+            "url": "https://app.glowforge.com/"
         },
         {
             "title": "Speechify",
@@ -39,8 +39,8 @@
             "url": "https://chatgpt.com/"
         },
         {
-            "title": "Glowforge",
-            "url": "https://app.glowforge.com/"
+            "title": "Adobe",
+            "url": "https://www.adobe.com/"
         }
     ]
 }

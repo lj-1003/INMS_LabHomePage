@@ -10,10 +10,28 @@ async function getLinks() {
     return data;
 }
 
-//Render
+//Template for rendering
+function baseRender(category, grid) {
+    const container = document.getElementById(grid);
+    container.innerHTML = "";
+    category.forEach((category) => {
+        const div = document.createElement("div");
+        div.className = "waves-effect waves-light btn fhsu-gold black-text";
+        div.innerHTML = `
+        <a href="${category.url}" 
+            target="_blank">${category.title}
+        </a>
+        `;
+        container.appendChild(div);
+    });
+}
+
+//Renders based on category from JSON
 function renderLinks(links) {
     student = links.student; //student resources array
     lab = links.lab; //lab resources array
+    grid1 = "link-btn-grid1"
+    grid2 = "link-btn-grid2"
     
     //Test to see if getting data---------------------------
     console.log("Loading links...");
@@ -23,16 +41,6 @@ function renderLinks(links) {
     //-------------------------------------------------------
 
     //Render on Page
-    const container = document.getElementById("link-btn-grid1");
-    container.innerHTML = "";
-    student.forEach((student) => {
-        const div = document.createElement("div");
-        div.className = "waves-effect waves-light btn fhsu-gold black-text";
-        div.innerHTML = `
-        <a href="${student.url}" 
-            target="_blank">${student.title}
-        </a>
-        `;
-        container.appendChild(div);
-    });
+    baseRender(student, grid1);
+    baseRender(lab, grid2);
     }
