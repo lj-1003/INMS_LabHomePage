@@ -1,3 +1,4 @@
+/*GENERAL STYLING--------------------*/
 body {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -22,11 +23,20 @@ h1 {
     font-weight: 900;
     font-style: normal;
 }
+/*--------------------------------------*/
+/*HYPERLINK STYLING--------------------*/
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+/*--------------------------------------*/
 
 
 
-
-#link-btn-grid {
+#link-btn-grid1, #link-btn-grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }

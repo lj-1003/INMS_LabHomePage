@@ -1,0 +1,46 @@
+{
+    "student" : [
+        {
+            "title": "FHSU Site",
+            "url": "https://www.fhsu.edu/newmedia/"
+        },
+        {
+            "title": "Speechify",
+            "url": "https://studio.speechify.com/"
+        },
+        {
+            "title": "MidJourney",
+            "url": "https://www.midjourney.com/home"
+        },
+        {
+            "title": "ChatGPT",
+            "url": "https://chatgpt.com/"
+        },
+        {
+            "title": "Glowforge",
+            "url": "https://app.glowforge.com/"
+        }
+    ],
+    "lab" : [
+        {
+            "title": "FHSU Site",
+            "url": "https://www.fhsu.edu/newmedia/"
+        },
+        {
+            "title": "Speechify",
+            "url": "https://studio.speechify.com/"
+        },
+        {
+            "title": "MidJourney",
+            "url": "https://www.midjourney.com/home"
+        },
+        {
+            "title": "ChatGPT",
+            "url": "https://chatgpt.com/"
+        },
+        {
+            "title": "Glowforge",
+            "url": "https://app.glowforge.com/"
+        }
+    ]
+}
