@@ -16,11 +16,14 @@ function baseRender(category, grid) {
     container.innerHTML = "";
     category.forEach((category) => {
         const div = document.createElement("div");
-        div.className = "waves-effect waves-light btn fhsu-gold black-text";
+        //div.className = "waves-effect waves-light btn fhsu-gold black-text";
         div.innerHTML = `
-        <a href="${category.url}" 
-            target="_blank">${category.title}
-        </a>
+        <a 
+            class="btn-size hover waves-effect waves-light btn-large fhsu-gold black-text"
+            href="${category.url}"
+            target="_blank">
+            <img class="image-icon left" src="${category.image}">
+        ${category.title}</a>
         `;
         container.appendChild(div);
     });

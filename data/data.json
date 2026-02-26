@@ -2,11 +2,13 @@
     "student" : [
         {
             "title": "FHSU Site",
-            "url": "https://www.fhsu.edu/newmedia/"
+            "url": "https://www.fhsu.edu/newmedia/",
+            "image": "../images/icons/tiger.png"
         },
         {
             "title": "Outlook",
-            "url": "https://outlook.office.com/mail/"
+            "url": "https://outlook.office.com/mail/",
+            "image": "../images/icons/outlook.png"
         },
         {
             "title": "Placeholder",
@@ -24,23 +26,28 @@
     "lab" : [
         {
             "title": "Glowforge",
-            "url": "https://app.glowforge.com/"
+            "url": "https://app.glowforge.com/",
+            "image": "../images/icons/glowforge.png"
         },
         {
             "title": "Speechify",
-            "url": "https://studio.speechify.com/"
+            "url": "https://studio.speechify.com/",
+            "image": "../images/icons/speechify.webp"
         },
         {
             "title": "MidJourney",
-            "url": "https://www.midjourney.com/home"
+            "url": "https://www.midjourney.com/home",
+            "image": "../images/icons/midjourney.png"
         },
         {
             "title": "ChatGPT",
-            "url": "https://chatgpt.com/"
+            "url": "https://chatgpt.com/",
+            "image": "../images/icons/chatgpt.png"
         },
         {
             "title": "Adobe",
-            "url": "https://www.adobe.com/"
+            "url": "https://www.adobe.com/",
+            "image": "../images/icons/adobe.png"
         }
     ]
 }

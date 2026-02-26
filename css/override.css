@@ -1,4 +1,7 @@
-/*GENERAL STYLING--------------------*/
+/*This css file is for any custom styling that overrides or is not done with Materialize CSS*/
+
+
+/*GENERAL ELEMENTS--------------------*/
 body {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -8,40 +11,81 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 header {
   max-height: 150px;
 }
-
 main {
   flex: 1 0 auto;
   padding-top: 30px;
+  background-image: url(../images/background.png); /*edit url to change background image */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
-
 h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 900;
     font-style: normal;
 }
 /*--------------------------------------*/
-/*HYPERLINK STYLING--------------------*/
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-/*--------------------------------------*/
-
-
-
-#link-btn-grid1, #link-btn-grid2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
+/*HEADER--------------------*/
 .header-logo-img {
   max-height: 145px;
   padding: 15px 15px 15px 15px;
 }
+/*HYPERLINKS--------------------*/
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+/*--------------------------------------*/
+/*BUTTONS--------------------*/
+.btn-size {
+  width: 75%;
+}
+.hover:hover {
+  transform: scale(1.1);
+	transition: transform .25s ease;
+}
+.image-icon {
+  max-height: 75%;
+  height: auto;
+  padding: 0;
+}
+#link-btn-grid1, #link-btn-grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*--------------------------------------*/
+
+/*
+                                                 
+                  ..                             
+          .:--=+*##=...::::..                    
+         .#########*...:::-=*%%*:.               
+          =#########:           -*#=..           
+          .#########+             .:#*.          
+           +#########.               :#+.        
+       .=. -#########-                 +*.       
+      .#+. :*########*.                 =#.      
+     .**.  .+#########:                  +#.     
+     -%.    -#########+                  .#=     
+    .++     .*########*.                  =*.    
+    .*=      =#########:                  -#:    
+    .*=      :#########+.                 -#:    
+    .++      .*#########.                 =*.    
+     -%.      -#########=   .-=#####-     %=     
+     .**.     .#####################+.  .+#.     
+      .#+.    .+####################*: .=#.      
+       .*+.   .-#####################-.+*.       
+        .=%-   .*#####################%+.        
+          .+#-..+#############*+=:.:#*.          
+            .=#*+###*+=-:...   .-*#=.            
+               .:+%%#+--:--=#%%*:.               
+                     ..:::..                     
+                                                
+*/
