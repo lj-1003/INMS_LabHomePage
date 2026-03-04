@@ -52,7 +52,7 @@ a:visited {
 .image-icon {
   max-height: 75%;
   height: auto;
-  padding: 0;
+  padding-right: 10px;
 }
 #link-btn-grid1, #link-btn-grid2 {
     display: grid;

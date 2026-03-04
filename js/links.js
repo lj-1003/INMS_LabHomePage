@@ -19,7 +19,7 @@ function baseRender(category, grid) {
         //div.className = "waves-effect waves-light btn fhsu-gold black-text";
         div.innerHTML = `
         <a 
-            class="btn-size hover waves-effect waves-light btn-large fhsu-gold black-text"
+            class="btn-size hover btn-large fhsu-gold black-text"
             href="${category.url}"
             target="_blank">
             <img class="image-icon left" src="${category.image}">

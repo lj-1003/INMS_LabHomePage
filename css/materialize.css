@@ -5266,6 +5266,13 @@ small {
 }
 
 .btn, .btn-large, .btn-small {
+  /* ADDED BY LEVI TO FIX BUTTON IMAGE ALIGNMENT */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*--------------------------------------------*/
+
+
   text-decoration: none;
   color: #fff;
   background-color: #26a69a;
