@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 //Get from json
 async function getLinks() {
-    const response = await fetch("../data/data.json");
+    const response = await fetch("https://lj-1003.github.io/INMS_LabLinks/data/data.json");
     const data = await response.json();
     return data;
 }
