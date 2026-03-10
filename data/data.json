@@ -1,28 +1,4 @@
 {
-    "student" : [
-        {
-            "title": "FHSU Site",
-            "url": "https://www.fhsu.edu/newmedia/",
-            "image": "../images/icons/tiger.png"
-        },
-        {
-            "title": "Outlook",
-            "url": "https://outlook.office.com/mail/",
-            "image": "../images/icons/outlook.png"
-        },
-        {
-            "title": "Placeholder",
-            "url": ""
-        },
-        {
-            "title": "Placeholder",
-            "url": ""
-        },
-        {
-            "title": "Placeholder",
-            "url": ""
-        }
-    ],
     "lab" : [
         {
             "title": "Glowforge",
@@ -30,14 +6,51 @@
             "image": "../images/icons/glowforge.png"
         },
         {
-            "title": "Speechify",
-            "url": "https://studio.speechify.com/",
-            "image": "../images/icons/speechify.webp"
+            "title": "Lab Cameras",
+            "url": "https://192.168.55.118/protect/dashboard/all",
+            "image": "../images/icons/camera.png"
+        },
+         {
+            "title": "Prusa MK4",
+            "url": "",
+            "image": "../images/icons/prusa.webp"
+        },
+         {
+            "title": "Prusa MK4S",
+            "url": "",
+            "image": "../images/icons/prusa.webp"
+        }
+    ],
+    "tools" : [
+        {
+            "title": "Google Drive",
+            "url": "https://drive.google.com/",
+            "image": "../images/icons/gdrive.png"
         },
         {
-            "title": "MidJourney",
-            "url": "https://www.midjourney.com/home",
-            "image": "../images/icons/midjourney.png"
+            "title": "OneDrive",
+            "url": "https://mailfhsu-my.sharepoint.com/",
+            "image": "../images/icons/onedrive.webp"
+        },
+        {
+            "title": "MS Office",
+            "url": "https://m365.cloud.microsoft/create/",
+            "image": "../images/icons/office.png"
+        },
+        {
+            "title": "Outlook",
+            "url": "https://outlook.office.com/mail/",
+            "image": "../images/icons/outlook.png"
+        },
+        {
+            "title": "MS Teams",
+            "url": "https://teams.cloud.microsoft/",
+            "image": "../images/icons/teams.png"
+        },
+        {
+            "title": "Copilot",
+            "url": "https://copilot.microsoft.com/",
+            "image": "../images/icons/microslop.png"
         },
         {
             "title": "ChatGPT",
@@ -45,9 +58,61 @@
             "image": "../images/icons/chatgpt.png"
         },
         {
+            "title": "MidJourney",
+            "url": "https://www.midjourney.com/home",
+            "image": "../images/icons/midjourney.png"
+        },
+        {
+            "title": "Speechify",
+            "url": "https://studio.speechify.com/",
+            "image": "../images/icons/speechify.webp"
+        },
+        {
             "title": "Adobe",
             "url": "https://www.adobe.com/",
             "image": "../images/icons/adobe.png"
+        },
+        {
+            "title": "Zoom",
+            "url": "https://www.zoom.com/",
+            "image": "../images/icons/zoom.png"
+        }
+    ],
+    "student" : [
+        {
+            "title": "Workday",
+            "url": "https://wd503.myworkday.com/fhsu/d/home.htmld",
+            "image": "../images/icons/workday.jpg"
+        },
+        {
+            "title": "Blackboard",
+            "url": "https://blackboard.fhsu.edu/",
+            "image": "../images/icons/blackboard.jpg"
+        },
+        {
+            "title": "FHSU Home",
+            "url": "https://www.fhsu.edu/",
+            "image": "../images/icons/tiger.png"
+        },
+        {
+            "title": "INMS",
+            "url": "https://www.fhsu.edu/newmedia/",
+            "image": "../images/icons/tiger.png"
+        },
+        {
+            "title": "RCOBE",
+            "url": "https://www.fhsu.edu/cob/",
+            "image": "../images/icons/tiger.png"
+        },
+        {
+            "title": "Informatics",
+            "url": "https://www.fhsu.edu/informatics/",
+            "image": "../images/icons/tiger.png"
+        },
+        {
+            "title": "Tiger Tech",
+            "url": "https://www.fhsu.edu/tigertech/",
+            "image": "../images/icons/tiger.png"
         }
     ]
 }

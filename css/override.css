@@ -54,7 +54,7 @@ a:visited {
   height: auto;
   padding-right: 10px;
 }
-#link-btn-grid1, #link-btn-grid2 {
+#link-btn-grid1, #link-btn-grid2, #link-btn-grid3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 15%;

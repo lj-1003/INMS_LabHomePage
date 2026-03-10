@@ -31,19 +31,18 @@ function baseRender(category, grid) {
 
 //Renders based on category from JSON
 function renderLinks(links) {
+    lab = links.lab; //tools resources array
+    tools = links.tools; //tools resources array
     student = links.student; //student resources array
-    lab = links.lab; //lab resources array
     grid1 = "link-btn-grid1"
     grid2 = "link-btn-grid2"
+    grid3 = "link-btn-grid3"
     
-    //Test to see if getting data---------------------------
-    console.log("Loading links...");
-    console.log(links);
-    console.log(student);
-    console.log(lab);
-    //-------------------------------------------------------
 
     //Render on Page
-    baseRender(student, grid1);
-    baseRender(lab, grid2);
+    baseRender(lab, grid1);
+    baseRender(tools, grid2);
+    baseRender(student, grid3);
+    
+    
     }
