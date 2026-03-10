@@ -12,16 +12,31 @@
         },
          {
             "title": "Prusa MK4",
-            "url": "",
+            "url": "http://192.168.157.101",
             "image": "../images/icons/prusa.webp"
         },
          {
             "title": "Prusa MK4S",
-            "url": "",
+            "url": "http://192.168.157.100",
             "image": "../images/icons/prusa.webp"
         }
     ],
     "tools" : [
+        {
+            "title": "ChatGPT",
+            "url": "https://chatgpt.com/",
+            "image": "../images/icons/chatgpt.png"
+        },
+         {
+            "title": "MidJourney",
+            "url": "https://www.midjourney.com/home",
+            "image": "../images/icons/midjourney.png"
+        },
+        {
+            "title": "Speechify",
+            "url": "https://studio.speechify.com/",
+            "image": "../images/icons/speechify.webp"
+        },
         {
             "title": "Google Drive",
             "url": "https://drive.google.com/",
@@ -53,21 +68,6 @@
             "image": "../images/icons/microslop.png"
         },
         {
-            "title": "ChatGPT",
-            "url": "https://chatgpt.com/",
-            "image": "../images/icons/chatgpt.png"
-        },
-        {
-            "title": "MidJourney",
-            "url": "https://www.midjourney.com/home",
-            "image": "../images/icons/midjourney.png"
-        },
-        {
-            "title": "Speechify",
-            "url": "https://studio.speechify.com/",
-            "image": "../images/icons/speechify.webp"
-        },
-        {
             "title": "Adobe",
             "url": "https://www.adobe.com/",
             "image": "../images/icons/adobe.png"
@@ -90,7 +90,7 @@
             "image": "../images/icons/blackboard.jpg"
         },
         {
-            "title": "FHSU Home",
+            "title": "FHSU",
             "url": "https://www.fhsu.edu/",
             "image": "../images/icons/tiger.png"
         },
